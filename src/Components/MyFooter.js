@@ -4,7 +4,10 @@ import { Navbar } from 'react-bootstrap';
 
 function MyFooter() {
     return(
-      <h1>Footer</h1>
+        <Navbar fixed="bottom" bg="dark" variant="dark" expand="lg">
+        <Navbar.Brand href="/">© Kondrat Kristof 2020</Navbar.Brand>
+        <i className="fa fa-instagram"></i>
+    </Navbar>
     );
 }
 

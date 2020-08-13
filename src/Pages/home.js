@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+
 import '../App.css';
 
 function Home() {
@@ -7,7 +7,8 @@ function Home() {
     <React.Fragment>
         <div class="l-wrap">
             <div class="two-col-grid">
-                <div class="first-grid">personal presentation</div>
+                <div class="first-grid"><h5><i class="fas fa-bars"></i></h5>
+                </div>
                 <div class="second-grid">is it this one?</div>
             </div>
         </div>
@@ -20,5 +21,5 @@ function Home() {
     </React.Fragment>
   );
 }
-// we can have only onde default export
+
 export default Home;
