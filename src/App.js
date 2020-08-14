@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './reset.css';
 import './App.css';
@@ -11,11 +11,16 @@ import LandingPage from './Pages/LandingPage';
 import Portfolio from './Pages/Portfolio';
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+  console.log(darkMode);
   return (
     <div className="App">
       <body>
     <Router>
-    <MyHeader></MyHeader>
+    <MyHeader
+      mode={darkMode}
+      switchMode={() => setDarkMode(!darkMode)}
+    />
     <Switch>
       <Route path="/" exact component={LandingPage}></Route>
       <Route path="/home" exact component={Home}></Route>
@@ -23,6 +28,7 @@ function App() {
       <Route path="/Portfolio" exact component={Portfolio}></Route>
       <Route path="/Contact" exact component={Contact}></Route>
     </Switch>
+    <body className={darkMode ? "body.dark-theme" : "body.light-theme"}>Im here boooy</body>
     <MyFooter></MyFooter>
     </Router>
     </body>
