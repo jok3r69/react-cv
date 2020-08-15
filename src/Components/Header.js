@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../App.css';
-import { N } from 'react-bootstrap';
+
 
 // import darkmode from './darkMode';
 
@@ -13,7 +13,7 @@ export default function MyHeader(props) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/home">Home</Nav.Link>
+                    <Nav.Link href="/home">Story time</Nav.Link>
                     <Nav.Link href="/AboutMe">About me</Nav.Link>
                     <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
                     

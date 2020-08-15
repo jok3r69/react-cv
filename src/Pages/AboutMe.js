@@ -1,7 +1,8 @@
 import React from 'react';
 import '../App.css';
 import 'react-bootstrap';
-import '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core';
+import { Icon, Flag, Segment } from 'semantic-ui-react';
 
 
 function AboutMe() {
@@ -20,7 +21,7 @@ function AboutMe() {
         <p>Economics</p>
      </div>
         <div className="cv-grid">
-          <h5><i className="fa fa-graduation-cap"></i>2020-02 - 2020-08  The Informal School of IT – Web Development (JavaScript)</h5>
+          <h5><Icon name="envelope"></Icon>2020-02 - 2020-08  The Informal School of IT – Web Development (JavaScript)</h5>
           <p>Web Concepts: How the web works, Client-Server architecture, protocols</p>
           <p>HTTP: fundamentals about the protocol: methods, status codes, headers, cookies and sessions</p>
           <p>HTML and CSS: how to build a responsive User Interface with semantic HTML elements</p>
@@ -59,7 +60,6 @@ function AboutMe() {
         <p>React.JS</p>
         <p></p>
         </div>
-      <i className="fa fa-graduation-cap">12</i>
     </div>
   );
 }
