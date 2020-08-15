@@ -6,10 +6,10 @@ function LandingPage() {
     return (
         <>
         <header className="landing-background">
-            <div >
-        <h1>Wellcome to my page! Be prepared</h1>
+            <div className="landingpage">
+                <h1>Do you know those games, where the story is more important then the graphics? This is a site like those games!</h1>
 
-        </div>
+            </div>
         </header>
         </>
     );
