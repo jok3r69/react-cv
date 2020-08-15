@@ -19,7 +19,7 @@ function MyFooter() {
                     target="_blank">
                     <FaGithub></FaGithub>
                 </a>
-                <a href="https://github.com/jok3r69"
+                <a href="https://twitter.com/kristofkondrat"
                     className="mr-4"
                     rel="noopener noreferrer"
                     target="_blank">
