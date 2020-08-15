@@ -7,7 +7,7 @@ function LandingPage() {
         <>
         <header className="landing-background">
             <div >
-        <h1>This is the landing page</h1>
+        <h1>Wellcome to my page! Be prepared to </h1>
 
         </div>
         </header>

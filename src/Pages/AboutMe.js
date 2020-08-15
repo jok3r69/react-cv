@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import 'react-bootstrap';
+import '@fortawesome/fontawesome-svg-core'
 
 
 function AboutMe() {
