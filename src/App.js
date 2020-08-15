@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './reset.css';
 import './App.css';
+import '@fortawesome/free-solid-svg-icons';
+import '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/react-fontawesome';
+import '@fortawesome/fontawesome-svg-core';
 import MyHeader from './Components/MyHeader';
 import Home from './Pages/home';
 import AboutMe from './Pages/AboutMe';
@@ -16,7 +20,7 @@ function App() {
   console.log(darkMode);
   return (
     <div className="App">
-      <body>
+      
     <Router>
     <MyHeader
       mode={darkMode}
@@ -32,7 +36,7 @@ function App() {
     {/* <body className={darkMode ? "body.dark-theme" : "body.light-theme"}>Im here boooy</body> */}
     <MyFooter></MyFooter>
     </Router>
-    </body>
+    
     </div>
   );
 

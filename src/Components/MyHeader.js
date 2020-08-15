@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import '../App.css';
-import darkmode from './darkMode';
+import { N } from 'react-bootstrap';
+
+// import darkmode from './darkMode';
 
 export default function MyHeader(props) { 
     return (
+        <>
         <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="/">Kondrat Kristof</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,8 +19,8 @@ export default function MyHeader(props) {
                     
                 </Nav>
                 <Nav.Link href="/Contact">Contact</Nav.Link>
-            <script type="text/javascript" src="darkmode.js"></script>
-            <div class="toggle">
+            {/* <script type="text/javascript" src="darkmode.js"></script>
+            <div className="toggle">
                 <input 
                   value={props.mode}
                   type="checkbox" 
@@ -25,9 +28,10 @@ export default function MyHeader(props) {
                   onClick={() => props.switchMode()} 
                 />
                 <label for="toggle"></label>
-            </div>
+            </div> */}
             </Navbar.Collapse>
 
         </Navbar>
+        </>
     );
 }

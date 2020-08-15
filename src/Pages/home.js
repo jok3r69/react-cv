@@ -4,15 +4,15 @@ import '../App.css';
 function Home() {
   return (
     <React.Fragment>
-        <div class="l-wrap">
-            <div class="two-col-grid">
-                <div class="first-grid"><h5>is this working?</h5>
+        <div className="l-wrap">
+            <div className="two-col-grid">
+                <div className="first-grid"><img className="Homeimg rounded-circle" src="https://imagizer.imageshack.com/img923/3553/qR2tRV.jpg" alt=""/>
                 </div>
-                <div class="second-grid">is it this one?</div>
+                <div className="second-grid">is it this one?</div>
             </div>
         </div>
-        <div class="l-wrap">
-            <div class="three-col-grid">
+        <div className="l-wrap">
+            <div className="three-col-grid">
                 <div>skills</div>
                 <div>projects</div>
             </div>

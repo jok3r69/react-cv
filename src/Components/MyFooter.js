@@ -11,7 +11,7 @@ function MyFooter() {
         <Navbar.Brand href="/">© Kondrat Kristof 2020</Navbar.Brand>
         <i className="fa fa-instagram"></i>
         <i className="fa fa-envelope"></i>
-        <i class="fa fa-envelope"></i>
+        <i className="fa fa-envelope"></i>
     </Navbar>
     );
 }

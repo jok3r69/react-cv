@@ -1,19 +1,25 @@
 import React from 'react';
 import '../App.css';
+import 'react-bootstrap';
 
 
 function AboutMe() {
   return (
-    <div class="about-grid">
-      <div class="contact-grid">
-        <h5>If you want to reach out, here is my contact info</h5>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+    <div className="about-grid">
+      <div className="contact-grid">
+        <h5>PERSONAL PROJECTS</h5>
+        <p>Learning German (2019 - Present)</p>
+        <p>Minutul Financiar (10/2018 - Present)</p>
+        <h5>INTERESTS</h5>
+        <p>Stock Exchange</p>
+        <p>Investments</p>
+        <p>New Technology</p>
+        <p>Cryptocurrency</p>
+        <p>Photography</p>
+        <p>Economics</p>
      </div>
-        <div class="cv-grid">
-          <h5><i class="fa fa-graduation-cap"></i>2020-02 - 2020-08  The Informal School of IT – Web Development (JavaScript)</h5>
+        <div className="cv-grid">
+          <h5><i className="fa fa-graduation-cap"></i>2020-02 - 2020-08  The Informal School of IT – Web Development (JavaScript)</h5>
           <p>Web Concepts: How the web works, Client-Server architecture, protocols</p>
           <p>HTTP: fundamentals about the protocol: methods, status codes, headers, cookies and sessions</p>
           <p>HTML and CSS: how to build a responsive User Interface with semantic HTML elements</p>
@@ -22,7 +28,7 @@ function AboutMe() {
           <p>GIT: learned the principles and basic commands</p>
           <p>jQuery: how to include it in a project and how to use it, why it’s helpful, selectors</p>
           <p>React JS: how modern JS applications work, React components, props, state, JSX</p>
-          <h5><i class="fa fa-graduation-cap"></i>01/2019 - Present, Real Estate Market Analyst at Yardi</h5>
+          <h5><i className="fa fa-graduation-cap"></i>01/2019 - Present, Real Estate Market Analyst at Yardi</h5>
           <p>Agile scrum methodology, using jira for tickets</p>
           <p>Multiple daily calls with property managers and property owners</p>
           <p>Weekly meetings about the team performance</p>
@@ -36,7 +42,22 @@ function AboutMe() {
           <p>Daily task reports.</p>
           <p>Introducing the bug's on different platforms like Mantis, Bugzilla.</p>
       </div>
-      <div class="skills-grid"> 3</div>
+        <div className="skills-grid">
+          <h5>Some of my soft skills</h5> 
+        <p>Photography</p>
+        <p>Problemsolver</p>
+        <p>Analytical thinking</p>
+        <p>Fast learner</p>
+        <p>Team player</p>
+        <p>Internet research</p>
+        <p>Analytical mindset</p>
+          <h5>Some of my hard skills</h5>
+        <p>HTML</p>
+        <p>CSS3</p>
+        <p>JavaScript</p>
+        <p>React.JS</p>
+        <p></p>
+        </div>
       <i className="fa fa-graduation-cap">12</i>
     </div>
   );
