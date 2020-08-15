@@ -10,6 +10,7 @@ import MyFooter from './Components/MyFooter'
 import LandingPage from './Pages/LandingPage';
 import Portfolio from './Pages/Portfolio';
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   console.log(darkMode);
@@ -28,7 +29,7 @@ function App() {
       <Route path="/Portfolio" exact component={Portfolio}></Route>
       <Route path="/Contact" exact component={Contact}></Route>
     </Switch>
-    <body className={darkMode ? "body.dark-theme" : "body.light-theme"}>Im here boooy</body>
+    {/* <body className={darkMode ? "body.dark-theme" : "body.light-theme"}>Im here boooy</body> */}
     <MyFooter></MyFooter>
     </Router>
     </body>
