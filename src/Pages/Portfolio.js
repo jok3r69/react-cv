@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css'
 import * as fontawesome from '@fortawesome/fontawesome-svg-core';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import {
-    FaGit,
     FaGithub
 } from 'react-icons/fa';
 

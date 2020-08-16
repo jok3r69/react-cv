@@ -3,7 +3,6 @@ import '../App.css';
 import 'react-bootstrap';
 import '@fortawesome/fontawesome-svg-core';
 import {
-  FaEnvelope,
   FaHatWizard,
   FaCalculator,
   FaHardHat,
@@ -65,7 +64,7 @@ function AboutMe() {
         <p>Analytical mindset</p>
           <h5><FaDev></FaDev>Some of my hard skills</h5>
         <p>HTML</p>
-        <p>CSS3 (As you can see, it's not a strength)</p>
+        <p>CSS3 (As you can see, it's not a strength[YET])</p>
         <p>JavaScript</p>
         <p>React.JS</p>
         <p></p>

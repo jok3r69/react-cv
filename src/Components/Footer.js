@@ -43,11 +43,6 @@ function MyFooter() {
                     target="_blank">
                     <FaLinkedinIn></FaLinkedinIn>
                 </a>
-
-
-
-
-
             </div>
         </Navbar>
 

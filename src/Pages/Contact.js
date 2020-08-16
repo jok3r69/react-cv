@@ -21,10 +21,6 @@ function ContactPage() {
 
   return (
     <>
-
-      {/* <a href="./assets/Resume.pdf" download="Resume.pdf">
-        <img src="/images/myw3schoolsimage.jpg" alt="W3Schools" width="104" height="142"></img>
-      </a> */}
       <div className="container">
         <h1 className="contact-h1">For more info, feel free to contact me!</h1>
         <div className="form-container">

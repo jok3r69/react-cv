@@ -1,8 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../App.css';
-
-
 // import darkmode from './darkMode';
 
 export default function MyHeader(props) { 
