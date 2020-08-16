@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css'
 import * as fontawesome from '@fortawesome/fontawesome-svg-core';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import {
     FaGit,
     FaGithub
@@ -16,7 +18,7 @@ function Portfolio() {
             <div className="face face1">
                 <div className="content">
                     <div className="icon">
-                       <FaGithub className="githubIcon" aria-hidden="true"/>
+                       <FaGithub size={70} className="githubIcon" aria-hidden="true"/>
                     </div>
                 </div>
             </div>
@@ -33,7 +35,7 @@ function Portfolio() {
             <div className="face face1">
                 <div className="content">
                     <div className="icon">
-                    <FaGithub className="githubIcon" aria-hidden="true"/>
+                    <FaGithub size={70} className="githubIcon" aria-hidden="true"/>
                     </div>
                 </div>
             </div>
@@ -50,7 +52,7 @@ function Portfolio() {
             <div className="face face1">
                 <div className="content">
                     <div className="icon">
-                    <FaGithub className="githubIcon" aria-hidden="true"/>
+                    <FaGithub size={70} className="githubIcon" aria-hidden="true"/>
                     </div>
                 </div>
             </div>
