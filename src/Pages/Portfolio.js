@@ -21,8 +21,8 @@ function Portfolio() {
             </div>
             <div className="face face2">
                 <div className="content">
-                    <h3>
-                        <a href="https://github.com/jok3r69/xoxoxoxo" target="_blank">Tic Tac Toe</a>
+                    <h3 >
+                        <a  href="https://github.com/jok3r69/xoxoxoxo" target="_blank" ><button class="button">Tic Tac Toe</button></a>
                     </h3>
                     <p>Wanna play a game? This is the vintage tic tac toe</p>
                 </div>
@@ -39,7 +39,7 @@ function Portfolio() {
             <div className="face face2">
                 <div className="content">
                     <h3>
-                        <a href="https://github.com/jok3r69/CSS-webshop" target="_blank">Webshop template link</a>
+                        <a href="https://github.com/jok3r69/CSS-webshop" target="_blank"><button class="button button2">Webshop template</button></a>
                     </h3>
                     <p>I also made a template for a webshop.</p>
                 </div>
@@ -56,7 +56,7 @@ function Portfolio() {
             <div className="face face2">
                 <div className="content">
                     <h3>
-                        <a href="https://github.com/jok3r69/react-cv" target="_blank">Awesome website link</a>
+                        <a href="https://github.com/jok3r69/react-cv" target="_blank"><button class="button button3">Awesome website</button></a>
                     </h3>
                     <p>Check out the code I wrote for this website</p>
                 </div>
