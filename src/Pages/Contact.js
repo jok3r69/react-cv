@@ -27,13 +27,13 @@ function ContactPage() {
           <form action="action_page.php" onSubmit={sendEmail}>
 
             <label form="fname">Full Name</label>
-            <input type="text" id="fname" name="fullname" data-displayname="fullname" placeholder="Your full name.."></input>
+            <input type="text" id="fname" name="fullname" data-displayname="fullname" placeholder="Your full name.." required />
 
             <label form="email">Your eMail</label>
-            <input type="text" name="email" id="email" data-displayname="email"placeholder="test@test.com"></input>
+            <input type="text" name="email" id="email" data-displayname="email"placeholder="test@test.com" required />
 
             <label form="subject">Subject</label>
-            <textarea id="subject" name="subject" data-displayname="subject" placeholder="Feel free to contact me..."></textarea>
+            <textarea id="subject" name="subject" data-displayname="subject" placeholder="Feel free to contact me..." required />
 
             <input type="submit" value="Send"></input>
 
