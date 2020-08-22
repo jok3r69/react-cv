@@ -7,6 +7,7 @@ import '../App.css';
 function ContactPage() {
   const [showModal, setShowModal] = useState(false);
   function sendEmail(e) {
+    console.log(e.target);
     e.preventDefault();
 
     emailjs.sendForm('gmail', 'template_test', e.target, 'user_qzbTJOI9o6aAwYWhA9ywd')
